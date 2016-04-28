@@ -1,0 +1,262 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style type="text/css">
+body {
+	background-color: #096;
+}
+</style>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<title>Quinta Aplicacion</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/app5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>DIA DE LA TIERRA </h1>
+  </div>
+  <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-content-theme="false">
+          <h1>DIA DE LA TIERRA</h1>
+           <div>
+           <p> La celebración de este año alumbra la esperanza de un futuro mejor para todos.El Día de la Tierra es un día celebrado en muchos países el 22 de abril. Su promotor, el senador estadounidense Gaylord Nelson, instauró este día para crear una conciencia común a los problemas de lasuperpoblación, la producción de contaminación, la conservación de la biodiversidad y otras preocupaciones ambientales para proteger la Tierra. Es un día para rendir homenaje a nuestro planeta y reconocer a la Tierra como nuestro hogar y nuestra madre, así como lo han expresado distintas culturas a lo largo de la historia, demostrando la interdependencia entre sus ecosistemas y los seres vivos que la habitamos.
+ </p>
+           <br>
+           </div>
+      <div>
+        <center><img src="imagenes/dia-de-la-tierra.png" width="50%" height="50%"></center> </div>
+      </div>
+      </div>
+
+      <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-content-theme="false">
+          <h1>POR QUE LO CELEBRAN</h1>
+           <div>
+           <p>
+          Desde 1970 cada 22 de abril se celebra el día internacional de la tierra; creado con el fin de generar participación y conciencia ambiental entre las personas, así como para apoyar los programas e iniciativas ambientales que se gestan año a año desde entonces.
+
+Según la EPA de los Estados Unidos (Agencia de Protección del Ambiente por sus siglas en inglés) uno de los logros más importantes de ese día fue la movilización masiva de personas del común que querían involucrarse y hacer sentir su preocupación por la problemática ambiental existente. El objetivo de toma de conciencia se había logrado.
+ 
+  <center>
+    <p>&nbsp;</p>
+    <p><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image3','','imagenes/tierra5.png',1)"><img src="imagenes/images (1).jpg" width="469" height="262" id="Image3" /></a></p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+  </center>
+       
+         
+        </div>
+     </div>
+  </div>
+  
+  <div>
+     <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+     <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>QUE PODEMOS REALIZAR PARA CUIDAR A NUESTRO PLANETA</h2>
+     <p>Se muestra en mi comunidad..</p>
+       </a>
+      </li>
+      <li class="ui-first-child ui-last-child ">
+       <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>LAS 3 ERRES</h2>
+       <p>Se muestra..</p>
+       </a>
+      </li>
+       <li class="ui-first-child ui-last-child ">
+       <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Reflexión</h2>
+       <p>Se muestra..</p>
+       </a>
+      </li>
+    </ul>
+ </div>
+
+<div data-role="footer" align="center" data-theme="a">
+  <div>
+    <img src="imagenes/dia-de-la-tierra.png" width="46" height="46">
+  </div>
+  <div>
+    <h4>Aplicacion CINCO</h4>
+    <h4>Marlem Balderas Méndez</h4>
+  </div>
+</div>
+</div>
+      
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+  <h1>QUE PODEMOS REALIZAR PARA CUIDAR A NUESTRO PLANETA</h1>
+  </div>
+  <div data-role="content" align="center">
+    <div>
+      <p>
+       <h3>Usa bicicleta, transporte público o comparte el auto cuando lo utilices.</h3>
+       <br>
+      <h3> No uses artículos desechables.</h3>
+       <br>
+       <h3>Viaja menos en avión.</h3>
+       <br>
+       <h3>Demanda el uso de las energías renovables en lugar de los combustibles fósiles.</h3>
+       <br>
+       <h3>Cambia tu calentador por uno solar.</h3>
+       <br>
+       <h3>Cuidar las barrancas y limpiarlas para que no halla mas contaminacion</h3>
+       <br>
+       <h3>No desperdiciar tanta agua</h3>
+       <br>
+        <center>
+    <p>&nbsp;</p>
+    <p><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','imagenes/9.jpg',1)"><img src="imagenes/images (2).jpg" width="469" height="262" id="Image4" /></a></p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+  </center>
+  
+  <a href="http://www.greenpeace.org/mexico/es/Actua/Ecotips/40-tips-para-cuidar-el-planeta/"  target="_blank">http://www.greenpeace.org/mexico/es/Actua/Ecotips/40-tips-para-cuidar-el-planeta/</a>
+<!-- Start WOWSlider.com -->
+       
+        
+     
+      </p>
+    </div>
+   </div>
+ <div data-role="footer" align="center" data-theme="a">
+  <div>
+    <img src="imagenes/dia-de-la-tierra.png" width="46" height="46">
+  </div>
+  <div>
+    <h4>Aplicacion CINCO</h4>
+    <h4>Marlem Balderas Méndez</h4>
+  </div>
+</div>
+</div>
+
+
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>LAS 3 ERRES</h1>
+  </div>
+  <div data-role="content" align="center">
+  <div>
+    <p>
+    <h1>Reducir</h1>
+    "Reduce la basura que produces"
+Reduce los papeles y envoltorios que te dan al hacer una compra por ejemplo: los papeles de tortillas.
+Reduce el uso, de productos tóxicos y contaminantes.
+Cuando compres lleva una bolsa de tu casa.
+<div>
+<img src="imagenes/tierra2.png" width="50" height="50">
+</div>
+<h1>Reciclar</h1>
+"Recicla la basura que produces"
+Al comprar algún producto en particular siempre debemos fijarnos que sea un envase reciclable.
+Reciclar es tratar de hacer basura que con ella se pueda fabricar otras cosas por ejemplo: una botella podría reciclarse para convertirla en un fantástico vaso, un cuaderno en un bonito libro o un periódico, una bolsa de plástico en un banco de jardín etc.
+Unos ejemplos de basura que se pueden reciclar son: Papel, Cartón, Vidrio, Hojalata, Aluminio, Plomo, Zinc, Plásticos.
+<h1>Reutilizar</h1>
+"Reutiliza los envases u otras cosas que uses"
+No debes de tirar a la basura todo aquello que puede ser usado otra vez ya que cuantos más cosas reutilicemos, menos basura produciremos. Algunos consejos que se dan son:
+<br>
+Compra refrescos en botellas retornables.
+<br>
+Utiliza el papel por las dos caras.
+<br>
+Regala la ropa que te quede pequeña o que ya no usas.
+
+<center>
+    <p>&nbsp;</p>
+    <p><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image5','','imagenes/3 R.jpg',1)"><img src="imagenes/3r2.jpg" width="469" height="262" id="Image5" /></a></p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+  </center>
+
+<!-- Start WOWSlider.com -->
+<iframe src="visor/indexvisor.html" style="width:960px;height:120px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+
+
+
+
+</p>
+    </div>
+  </div>  
+   <div data-role="footer" align="center" data-theme="a">
+  <div>
+    <img src="imagenes/dia-de-la-tierra.png" width="46" height="46">
+  </div>
+  <div>
+    <h4>Aplicacion CINCO</h4>
+    <h4>Marlem Balderas Méndez</h4>
+  </div>
+ </div>
+</div>
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+  <h1>Reflexión</h1>
+  </div>
+  <div data-role="content" align="center">
+    <div>
+      <p>
+       ***En este planeta lleno de cosas, debemos de ser cuidadosos con ella
+       ya que es el que nos da la vida. Nuestro sol, nuestra agua, para toda la vida 
+       cuida el planeta y viviras más*** 
+       <div>
+       <img src="imagenes/tierra2.png" width="50%" height="50%">
+       </div>     
+     
+      </p>
+    </div>
+   </div>
+ <div data-role="footer" align="center" data-theme="a">
+  <div>
+    <img src="imagenes/dia-de-la-tierra.png" width="46" height="46">
+  </div>
+  <div>
+    <h4>Aplicacion CINCO</h4>
+    <h4>Marlem Balderas Méndez</h4>
+  </div>
+</div>
+</div>
+
+
+
+</body>
+</html>
+
+
+          
+           
+ 
